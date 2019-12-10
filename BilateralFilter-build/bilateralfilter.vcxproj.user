@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>C:\Registration\BilateralFilter\BilateralFilter\sample\sphere_noisy_oriented.txt C:\Registration\BilateralFilter\BilateralFilter\sample\sphere_denoised.txt -R -r 0.04 -n 0.04 -N 1</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>C:\Registration\Test\meshRegistration\synthetic_model\24_07_19\results\theta1.57_t0_10_6X\ObjetSynthetique_simp32_source_m0_s0.pcd C:\Registration\Test\meshRegistration\synthetic_model\24_07_19\results\theta1.57_t0_10_6X\ObjetSynthetique_simp32_source_m0_s0_denoised.pcd -r 16.0 -n 16.0 -N 1</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
